@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="container-fluid">
+  <div class="row vertical-central horizontal-central smallscreen">
+      <div class="col-sm-6 text-right navigation-dropdown">Я хочу узнать больше</div>
+      <div class="col-sm-6 dropdown">
+          <button class="btn-drp" type="button" data-toggle="dropdown">
+            {% for option in site.options %}
+              {% if page.permalink == option.url %}{{ option.text }}{% endif %}
+            {% endfor %}
+            <span class="glyphicon glyphicon-menu-down"></span>
+          </button>
+          <ul class="dropdown-menu">
+            {%- for category in site.options -%}
+                <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                  <a class="{{ current }}" href="{{ category.url }}">{{ category.text }}</a>
+                </li>
+            {%- endfor -%}
+          </ul>
+      </div>
+  </div>
+</div>
+
+{%- if site.posts.size > 0 -%}
+<div class="container-fluid">
+  <ul class="row flex-row">
+    {%- for post in site.posts -%}
+    <a href="{{ post.url }}"> 
+      <li class="col-sm-6 thumbnail">
+          <div class="post-empty" style="background-image: url({{ post.image }})"></div>
+          <h2 class="post-title">{{ post.title }}</h2>
+      </li>
+    </a>
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}

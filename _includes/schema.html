@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{ 
+	"@context": "https://schema.org", 
+	"@type": "BlogPosting",
+	"headline": "{{ page.title }}",
+	"inLanguage": "ru",
+	"image": "https://www.snorkusdomus.ru{{ page.image }}", 
+	"url": "https://www.snorkusdomus.ru{{ page.permalink }}",
+	"datePublished": "{{ page.date | date_to_xmlschema }}",
+	"dateCreated": "{{ page.date | date_to_xmlschema }}",
+	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+	"description": "{{ page.description }}",
+	"author": {
+		"@type": "Person",
+		"name": "Сноркус"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "Snorkus Domus",
+		"logo": {
+    		"@type": "ImageObject",
+    		"url": "https://www.snorkusdomus.ru/assets/images/favicon.png"
+    	}
+	},
+	"mainEntityOfPage": "True"
+	}
+</script>

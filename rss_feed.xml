@@ -1,0 +1,28 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+	<title>Блог выпускника Кембриджа</title>
+	<link>https://www.snorkusdomus.ru</link>
+	<description>Это блог выпускника Кембриджа о том как поступить в английские школы и университеты из России.</description>
+	<language>ru-ru</language>
+	<image>
+		<title>Блог выпускника Кембриджа</title>
+		<link>https://www.snorkusdomus.ru</link>
+		<url>https://www.snorkusdomus.ru/ms-icon-150x150</url>
+		<width>150</width>
+		<height>150</height>
+	</image>
+	{% for post in site.posts %}
+		<item>
+			<title>{{ post.title }}</title>
+			<pubDate>{{ post.date }}</pubDate>
+			<link>https://www.snorkusdomus.ru{{ post.permalink }}</link>
+			<description>{{ post.description }}</description>
+		</item>
+	{% endfor %}
+</channel>
+</rss>

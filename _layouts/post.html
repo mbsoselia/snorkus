@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="jumbotron text-center">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.subtitle }}</p>
+</div>
+<div class="container-fluid post-width"> 
+  <div class="container-fluid"> 
+    <p style="text-align:left">
+    {% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}Января
+      {% when '2' %}Февраля
+      {% when '3' %}Марта
+      {% when '4' %}Апреля
+      {% when '5' %}Майа
+      {% when '6' %}Июня
+      {% when '7' %}Июля
+      {% when '8' %}Августа
+      {% when '9' %}Сентября
+      {% when '10' %}Октября
+      {% when '11' %}Ноября
+      {% when '12' %}Декабря
+    {% endcase %}
+    {{ page.date | date: "%Y" }}
+    </p>
+  </div>
+  <br/>
+  <img src={{ page.image }} alt="{{ page.description }}">
+  {{ content }}
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
