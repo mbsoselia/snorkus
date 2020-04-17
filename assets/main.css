@@ -608,6 +608,12 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.carousel-control {
+    top: auto;
+    width: 10%;
+    height: 10%;
+    background-image:none !important;
+}
 
 @media screen and (max-width: 768px) {
     .col-sm-6 {

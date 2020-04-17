@@ -126,7 +126,7 @@ permalink: /услуги
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
-<!-- <div class="container-fluid">
+<div class="container-fluid">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
@@ -139,14 +139,14 @@ permalink: /услуги
         <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New york" style="width:100%;">
       </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <div class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    </div>
+    <div class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
+    </div>
   </div>
-</div> -->
+</div>
 
 <!-- <div class="container-fluid cy text-center border-bottom">
     <h3>Testimonials</h3>
