@@ -15,21 +15,6 @@ description: Я надеюсь, что после того как вы проч�
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 form-group"><input title="agefield" class="form-control" id="age" name="Сколько вам лет?" placeholder="Сколько вам лет?" rows="1" type="text" required></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="languagefield" id="english" name="Как вы изучаете английский?" placeholder="Как вы изучаете английский?" rows="1" type="text" required></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="schoolfield" id="school" name="Какая у вас успеваемость в школе?" placeholder="Какая у вас успеваемость в школе?" rows="1" type="text" required></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="englandfield" id="England" name="Насколько серьезно вы настроены на Англию?" placeholder="Насколько серьезно вы настроены на Англию?" rows="1" type="text" required></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="checkfield" id="confirm" name="Вы уже видели секцию 'Проверь Себя'?" placeholder="Вы уже видели секцию 'Проверь Себя'?" rows="1" type="text" required></div>
-    </div>
-    <div class="row">
         <div class="col-sm-12 form-group"><textarea class="form-control" title="commentfield" id="comments" name="Ваше сообщение" placeholder="Ваше сообщение" rows="5"></textarea><br></div>
     </div>
     <div class="row">
