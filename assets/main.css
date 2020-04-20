@@ -608,11 +608,44 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.carousel-control {
-    top: auto;
-    width: 10%;
-    height: 10%;
-    background-image:none !important;
+.testimonial{
+    padding: 5%;
+    margin: 5% 5%;
+}
+
+.testimonial .pic{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    position: relative;
+}
+
+.testimonial .pic:before,
+.testimonial .pic:after{
+    content: "";
+    display: block;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
+
+.testimonial .pic:before{
+    bottom: -30px;
+    left: -30px;
+    border-bottom: 3px solid #E16B47;
+    border-left: 3px solid #E16B47;
+}
+
+.testimonial .pic:after{
+    top: -30px;
+    right: -30px;
+    border-top: 3px solid #e16b47;
+    border-right: 3px solid #e16b47;
+}
+
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -622,8 +655,12 @@ a:hover {
     .col-md-6 {
         text-align: center;
     }
-    /*.products {
+    .testimonial .pic:before,
+    .testimonial .pic:after{
+        content: "";
         display: block;
-
-    }*/
+        height: 50%;
+        width: 50%;
+        position: absolute;
+    }
 }
