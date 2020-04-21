@@ -33,8 +33,8 @@
 	<link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?9ukd8d">
 	<link rel="stylesheet" href="/assets/main.css">
 	<link rel="stylesheet" href="/assets/small-screen.css">
-	<link rel="canonical" href="https://www.snorkusdomus.ru/консультация">
-	<title>Консультация</title><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="snorkus" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	<link rel="canonical" href="https://www.snorkusdomus.ru/связаться">
+	<title>Связаться</title><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="snorkus" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://www.paypalobjects.com/api/checkout.js"></script>
@@ -76,8 +76,15 @@
                   
                   
 
-                  <li class="  last">
+                  <li class="  ">
                     <a class="" href="/услуги">УСЛУГИ</a>
+                  </li>
+            
+                  
+                  
+
+                  <li class=" active last">
+                    <a class="active" href="/связаться">СВЯЗАТЬСЯ</a>
                   </li>
             
         </ul>
@@ -85,36 +92,21 @@
   </div>
 </header>
 <div class="jumbotron text-center">
-    <h1>Консультация</h1>
+    <h1>Связаться</h1>
     <p>Есть вопросы? Пишите!</p>
 </div>
 <div class="container-fluid post-width"> 
-	<form class="container-fluid" id="contact-form">
+	<form class="container-fluid" id="contact-form" action="mailto:main@snorkusdomus.ru" method="POST" enctype="multipart/form-data" name="ContactForm">
     <div class="row">
         <div class="col-sm-6 form-group">
-            <input title="namefield" class="form-control" id="name" name="Имя" placeholder="Имя" type="text" required="" />
+            <input title="namefield" class="form-control" id="name" name="name" placeholder="Имя" type="text" required="" />
         </div>
         <div class="col-sm-6 form-group">
-            <input title="emailfield" class="form-control" id="email" name="E-mail" placeholder="E-mail" type="email" required="" />
+            <input title="emailfield" class="form-control" id="email" name="email" placeholder="E-mail" type="email" required="" />
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 form-group"><input title="agefield" class="form-control" id="age" name="Сколько вам лет?" placeholder="Сколько вам лет?" rows="1" type="text" required="" /></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="languagefield" id="english" name="Как вы изучаете английский?" placeholder="Как вы изучаете английский?" rows="1" type="text" required="" /></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="schoolfield" id="school" name="Какая у вас успеваемость в школе?" placeholder="Какая у вас успеваемость в школе?" rows="1" type="text" required="" /></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="englandfield" id="England" name="Насколько серьезно вы настроены на Англию?" placeholder="Насколько серьезно вы настроены на Англию?" rows="1" type="text" required="" /></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><input class="form-control" title="checkfield" id="confirm" name="Вы уже видели секцию 'Проверь Себя'?" placeholder="Вы уже видели секцию 'Проверь Себя'?" rows="1" type="text" required="" /></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 form-group"><textarea class="form-control" title="commentfield" id="comments" name="Ваше сообщение" placeholder="Ваше сообщение" rows="5"></textarea><br /></div>
+        <div class="col-sm-12 form-group"><textarea class="form-control" title="commentfield" id="comments" name="message" placeholder="Ваше сообщение" rows="5"></textarea><br /></div>
     </div>
     <div class="row">
         <div class="col-sm-12 form-group">
@@ -122,18 +114,13 @@
         </div>
     </div>
 </form>
-<script type="text/javascript">
-    var $form = $('form#contact-form'),
-    url = 'https://script.google.com/macros/s/AKfycbx_65T093yhAYIIfPg4h91CCNWT8YknQgUIvRhkhdxdAot-BUI/exec',
-        redirectUrl = 'cf-success-page.html'
 
-    $('#postForm').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.get(url, $form.serialize(), function(data) {
-                console.log("Success! Data: " + data.statusText);
-          $(location).attr('href',redirectUrl);
-            });
-      })
+<script type="text/javascript">
+    var frmvalidator = new Validator(“ContactForm”); 
+    frmvalidator.addValidation(“name”,”req”,”Пожалуйста, укажите ваше имя”);
+    frmvalidator.addValidation(“email”,”req”,”Пожалуйста, укажите свой адрес электронной почты”); 
+    frmvalidator.addValidation(“message”,”req”,”Пожалуйста, напишите ваше сообщение”); 
+    frmvalidator.addValidation(“email”,”email”, “Пожалуйста, введите действительный адрес электронной почты”); 
 </script>
 
 
