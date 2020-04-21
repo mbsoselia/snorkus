@@ -21,7 +21,7 @@ permalink: /услуги
     <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="46M3CPG4N5W6Q">
+            <input type="hidden" name="hosted_button_id" value="P2DTYUPQK6ADL">
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
@@ -43,7 +43,7 @@ permalink: /услуги
     <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="46M3CPG4N5W6Q">
+            <input type="hidden" name="hosted_button_id" value="WM52AP6SHNSNQ">
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
@@ -67,7 +67,7 @@ permalink: /услуги
     <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="46M3CPG4N5W6Q">
+            <input type="hidden" name="hosted_button_id" value="4RX453M69WGFC">
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
