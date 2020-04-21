@@ -1,8 +1,8 @@
 ---
 layout: products
 title: Услуги
-subtitle: Получите то, чего не дал блог
-description: Перечень услуг которые помогут поступить на учеба в Англию.
+subtitle: Помощь с поступлением на учебу в Англию.
+description: Перечень услуг которые помогут поступить на учебу в Англию.
 permalink: /услуги
 ---
 
@@ -11,9 +11,9 @@ permalink: /услуги
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
     <div class="col-md-6">
-        <h3>Silver Consulation Bundle</h3>
-        <p>✓ Personalized advice on college choices and GCSE subjects.</p>
-        <p>✓ 2x 60-minute in person consulation.</p>
+        <h3>Серебряный Тариф</h3>
+        <p>✓ Консультация по выбору Английской школы.</p>
+        <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
     </div>
     <div class="col-md-2">
         <h2 class="product-price">£100</h2>
@@ -31,11 +31,11 @@ permalink: /услуги
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
     <div class="col-md-6">
-        <h3>Gold Consulation Bundle</h3>
-        <p>✓ Personalized advice on college choices and GCSE subjects.</p>
-        <p>✓ Collaboration on writing a successful college application.</p>
-        <p>✓ Application submission to the desired colleges.</p>
-        <p>✓ 2x 60-minute in person consulation.</p>
+        <h3>Золотой Тариф</h3>
+        <p>✓ Консультация по выбору Английской школы.</p>
+        <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
+        <p>✓ Совместная работа над написанием успешного заявления.</p>
+        <p>✓ Подача заявки в желаемые школы.</p>
     </div>
     <div class="col-md-2">
         <h2 class="product-price">£300</h2>
@@ -53,13 +53,13 @@ permalink: /услуги
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
     <div class="col-md-6">
-        <h3>Premium Consulation Bundle</h3>
-        <p>✓ Личный advice on college choices and GCSE subjects.</p>
-        <p>✓ Collaboration on writing a successful college application.</p>
-        <p>✓ Application submission to the desired colleges.</p>
-        <p>✓ Interview preparation, tips and tricks.</p>
-        <p>✓ Entrance exams preparation, mock tests marking and advice.</p>
-        <p>✓ 4x 60-minute in person consulation.</p>
+        <h3>Премиальный Тариф</h3>
+        <p>✓ Консультация по выбору Английской школы.</p>
+        <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
+        <p>✓ Совместная работа над написанием успешного заявления.</p>
+        <p>✓ Подача заявки в желаемые школы.</p>
+        <p>✓ Подготовка к интервью, советы и рекомендации.</p>
+        <p>✓ Подготовка к вступительным экзаменам, проверка тестов с советами.</p>
     </div>
     <div class="col-md-2">
         <h2 class="product-price">£1000</h2>
