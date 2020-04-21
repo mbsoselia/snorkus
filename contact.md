@@ -23,20 +23,11 @@ description: Я надеюсь, что после того как вы проч�
         </div>
     </div>
 </form>
-<script language=”JavaScript”>
-    var frmvalidator = new Validator(“ContactForm”); frmvalidator.addValidation(“name”,”req”,”Пожалуйста, укажите ваше имя”);               frmvalidator.addValidation(“email”,”req”,”Пожалуйста, укажите свой адрес электронной почты”); frmvalidator.addValidation(“message”,”req”,”Пожалуйста, напишите ваше сообщение”); frmvalidator.addValidation(“email”,”email”, “Пожалуйста, введите действительный адрес электронной почты”); 
-</script>
 
 <script type="text/javascript">
-    var $form = $('form#contact-form'),
-    url = 'https://script.google.com/macros/s/AKfycbx_65T093yhAYIIfPg4h91CCNWT8YknQgUIvRhkhdxdAot-BUI/exec',
-        redirectUrl = 'cf-success-page.html'
-
-    $('#postForm').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.get(url, $form.serialize(), function(data) {
-                console.log("Success! Data: " + data.statusText);
-          $(location).attr('href',redirectUrl);
-            });
-      })
+    var frmvalidator = new Validator(“ContactForm”); 
+    frmvalidator.addValidation(“name”,”req”,”Пожалуйста, укажите ваше имя”);
+    frmvalidator.addValidation(“email”,”req”,”Пожалуйста, укажите свой адрес электронной почты”); 
+    frmvalidator.addValidation(“message”,”req”,”Пожалуйста, напишите ваше сообщение”); 
+    frmvalidator.addValidation(“email”,”email”, “Пожалуйста, введите действительный адрес электронной почты”); 
 </script>
