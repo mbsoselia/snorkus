@@ -24,7 +24,7 @@ navigation:
   - text: УСЛУГИ
     url: /услуги
   - text: СВЯЗАТЬСЯ
-    url: /консультация
+    url: /связатья
 
 options:
   - text: о Школах
