@@ -7,14 +7,6 @@ description: Это блог выпускника Кембриджа о том �
 <div class="jumbotron text-center">
     <h1>А вы готовы к учебе в Англии?</h1>
     <p>Узнайте зачем, как, куда и когда поступить.</p>
-    <form class="form-inline" id="subscription-form">
-        <div class="input-group">
-            <input type="text" name="Ваш E-Mail" class="form-control white-border" size="50" placeholder="Ваш E-Mail">
-            <div class="input-group-btn">
-                <button type="submit" class="btn" id="postForm">Подписаться на Блог</button>
-            </div>
-        </div>
-    </form>
 </div>
 <div id="modal-wrapper" class="modal">
     <div>
