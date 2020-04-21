@@ -54,7 +54,7 @@ permalink: /услуги
     </div>
     <div class="col-md-6">
         <h3>Premium Consulation Bundle</h3>
-        <p>✓ Personalized advice on college choices and GCSE subjects.</p>
+        <p>✓ Личный advice on college choices and GCSE subjects.</p>
         <p>✓ Collaboration on writing a successful college application.</p>
         <p>✓ Application submission to the desired colleges.</p>
         <p>✓ Interview preparation, tips and tricks.</p>
