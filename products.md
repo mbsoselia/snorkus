@@ -6,7 +6,7 @@ description: Перечень услуг которые помогут пост�
 permalink: /услуги
 ---
 
-<div class="container-fluid row">
+<div class="container-fluid flex-row">
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
@@ -26,7 +26,7 @@ permalink: /услуги
         </form>
     </div>
 </div>
-<div class="container-fluid product-highlight row">
+<div class="container-fluid product-highlight flex-row">
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
@@ -48,7 +48,7 @@ permalink: /услуги
         </form>
     </div>
 </div>
-<div class="container-fluid row">
+<div class="container-fluid flex-row">
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
@@ -71,7 +71,8 @@ permalink: /услуги
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
-<div class="container-fluid" style="width:75%;">
+<div class="container-fluid flex-row testimonial-container border-top">
+    <h2>Testimonials</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item active" style="background-color:#ffff;">
