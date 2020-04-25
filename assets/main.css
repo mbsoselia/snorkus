@@ -34,23 +34,14 @@ body {
     padding: 20px;
 }
 
-.products {
-    display: flex;
-    flex-wrap:wrap;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.products > .product-item {
-    flex: 1; /*grow | shrink | basis */
-    /* height: 50%; */
-}
-
 .product-item {
     display: flex;
-    margin: 1%;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-right:-25px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .product-highlight {
@@ -61,6 +52,10 @@ body {
 .product-price {
     margin: 0;
     align-self: center;
+}
+
+.product-description {
+    max-width: 600px;
 }
 
 a {
@@ -660,9 +655,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .col-sm-6 {
-        text-align: center;
-    }
-    .col-md-6 {
         text-align: center;
     }
     .testimonial-container{

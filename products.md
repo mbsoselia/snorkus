@@ -6,19 +6,17 @@ description: Перечень услуг которые помогут пост�
 permalink: /услуги
 ---
 
-<div class="container-fluid flex-row">
+<div class="container-fluid product-item">
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 product-description">
         <h3>Серебряный Тариф</h3>
         <p>✓ Консультация по выбору Английской школы.</p>
         <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-4" style="width: 150px">
         <h2 class="product-price">£100</h2>
-    </div>
-    <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="P2DTYUPQK6ADL">
@@ -30,17 +28,15 @@ permalink: /услуги
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 product-description">
         <h3>Золотой Тариф</h3>
         <p>✓ Консультация по выбору Английской школы.</p>
         <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
         <p>✓ Совместная работа над написанием успешного заявления.</p>
         <p>✓ Подача заявки в желаемые школы.</p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-4" style="width: 150px">
         <h2 class="product-price">£300</h2>
-    </div>
-    <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="WM52AP6SHNSNQ">
@@ -52,7 +48,7 @@ permalink: /услуги
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 product-description">
         <h3>Премиальный Тариф</h3>
         <p>✓ Консультация по выбору Английской школы.</p>
         <p>✓ Консультация по выбору предметов для GCSE, A-Level или IB.</p>
@@ -61,16 +57,15 @@ permalink: /услуги
         <p>✓ Подготовка к интервью, советы и рекомендации.</p>
         <p>✓ Подготовка к вступительным экзаменам, проверка тестов с советами.</p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-4" style="width: 150px">
         <h2 class="product-price">£1000</h2>
-    </div>
-    <div class="col-md-2">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="4RX453M69WGFC">
             <input type="submit" value="Купить" name="submit" title = "PayPal - The safer, easier way to pay online!" class="btn btn-coll">
         </form>
     </div>
+</div>
 <div class="container-fluid flex-row testimonial-container border-top">
     <h2>Testimonials</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
