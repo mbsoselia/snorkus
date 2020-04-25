@@ -66,8 +66,8 @@ permalink: /услуги
         </form>
     </div>
 </div>
-<div class="container-fluid flex-row testimonial-container border-top">
-    <h2>Testimonials</h2>
+<!-- <div class="container-fluid flex-row testimonial-container border-top">
+    <h2>Отзывы</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item active" style="background-color:#ffff;">
@@ -89,4 +89,4 @@ permalink: /услуги
 </div>
 <script>
     $('.carousel').on('click',function(){ $( this ).carousel('next');})
-</script>
+</script> -->
