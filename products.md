@@ -6,7 +6,7 @@ description: Перечень услуг которые помогут пост�
 permalink: /услуги
 ---
 
-<div class="container-fluid product-item">
+<div class="container-fluid flex-row">
     <div class="col-md-2">
         <img style="width: 100px" src="assets/images/consultation.png"/>
     </div>
